@@ -43,9 +43,9 @@ return validValues;
 	  flatfile.setBokeraccnumber("658");
 	  file.add(flatfile);
 	  FlatFile flatfile1 = new FlatFileVVI();
-	  flatfile1.setAcctype("123");
+	  flatfile1.setAccountValue("123");
 	  flatfile1.setConfirmationnumber("000000000000000000000000000000005556487");
-	  flatfile1.setBokeraccnumber("658123");
+	  flatfile1.setType("658123");
 	  file.add(flatfile1);
 	  file.stream().forEach(e->{
 		  List<String> validValue = validValue(e);
