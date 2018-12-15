@@ -20,8 +20,8 @@ if(column.getAcctype().length()<=1){
 else{
 	validValues.add("");
 }
-if(column.getBokeraccnumber().length()<=15){
-	validValues.add(column.getBokeraccnumber());
+if(column.getAccnumber().length()<=15){
+	validValues.add(column.getAccnumber());
 }
 else{
 	validValues.add("");
