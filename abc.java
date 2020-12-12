@@ -36,12 +36,12 @@ return validValues;
 } private void test1() throws IOException { FileWriter fw = new FileWriter("C:\Users\Public\testing1.csv"); PrintWriter out = new PrintWriter(fw);
 
 	  List<FlatFile>   file = new ArrayList<>();
-	  FlatFile flatfile = new FlatFileVVI();
+	  FlatFile flatfile = new FlatFile();
 	  flatfile.setAcctype("2");
 	  flatfile.setConfirmationnumber("5556487");
 	  flatfile.setBokeraccnumber("658");
 	  file.add(flatfile);
-	  FlatFile flatfile1 = new FlatFileVVI();
+	  FlatFile flatfile1 = new FlatFile();
 	  flatfile1.setAccountValue("123");
 	  flatfile1.setConfirmationnumber("000000000000000000000000000000005556487");
 	  flatfile1.setType("658123");
