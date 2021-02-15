@@ -35,6 +35,7 @@ else{
 return validValues;	
 } private void test1() throws IOException { FileWriter fw = new FileWriter("C:\Users\Public\testing1.csv"); PrintWriter out = new PrintWriter(fw);
 
+
 	  List<FlatFile>   file = new ArrayList<>();
 	  FlatFile flatfile = new FlatFile();
 	  flatfile.setAcctype("2");
